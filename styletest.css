@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+
+.top-bar {
+    background-color: #2a5d84;
+    padding: 15px 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+
+.blog {
+    background-color: #efeee5;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.blog img {
+    width: 7%;
+}
+
+.blog h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+.form-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-group {
+    margin: 0 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #2a5d84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-container button:hover {
+    background-color: #1e445f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.footer {
+    background-color: #333;
+    color: #7b7b7b;
+    padding: 1rem;
+    text-align: center;
+}

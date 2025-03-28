@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-bar{
+    background-color: #2a5d84;  
+}
+.top-bar-section{
+    display: flex;
+    align-items: center;
+    padding: 15px 200px;
+    
+    
+}
+.title-area,.left{
+    list-style: none;
+}
+.title-area,.left, a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+.left{
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.blog{
+    
+    background-color: #efeee5;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.large-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+}
+.large-12 img{
+    width: 7%;
+    background-color: #efeee5;
+}
+.large-12 h1{
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+span{
+    font-weight: 700;
+}
+hr{
+    margin: auto;
+    border: 1px solid #d7d4d4;
+    width: 65%;
+}
+.social{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 25px;
+}
+.social i{
+    font-size: 25px;
+    padding-left: 7px;
+}
+.columns{
+    margin-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: #7b7b7b;
+    letter-spacing: 0.5px;
+    padding-left: 20px;
+}
+#i_1{
+    color: #6cc0fceb;
+}
+#i_2{
+    color: #066bb3;
+}
+footer{
+    background-color: #333333;
+    margin-top: 300px;
+}
+.footer_links{
+    list-style: none;
+    padding-top: 15px;
+}
+.footer_links a{
+    font-size: 15px;
+    color: #7b7b7b;
+    margin-left: 750px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.form-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-group {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 150px;
+    appearance: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background-image: url('img/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2a5d84;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #1e445f;
+}
+
+b{
+    margin-left: 100px
+}
+.b1 {
+    margin-left: auto;
+}
+
+
+
+
